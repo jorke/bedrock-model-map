@@ -1,0 +1,43 @@
+name: Update model map
+
+on:
+  schedule:
+    # Nightly at 03:00 UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Generate model map
+        run: uv run generate_model_map.py
+
+      - name: Check for data changes (ignoring generatedAt)
+        id: check
+        run: |
+          if git diff --exit-code -I'generatedAt' -- bedrock_models.json bedrock_models.yaml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No model data changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Model data changed."
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bedrock_models.json bedrock_models.yaml
+          git commit -m "chore: update Bedrock model data ($(date -u +%Y-%m-%d))"
+          git push
