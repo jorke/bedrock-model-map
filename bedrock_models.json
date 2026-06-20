@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-06-19T04:05:44Z",
+  "generatedAt": "2026-06-20T04:29:49Z",
   "modelCount": 116,
   "models": [
     {
@@ -10621,6 +10621,16 @@
       },
       "regions": {
         "us-west-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "us-east-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "us-east-2": {
           "inRegion": true,
           "geo": false,
           "global": false
