@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-06-20T04:29:49Z'
+generatedAt: '2026-07-03T06:26:19Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -1122,7 +1122,6 @@ models:
     endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.anthropic.claude-fable-5
-    - eu.anthropic.claude-fable-5
     globalInferenceIds:
     - global.anthropic.claude-fable-5
   - endpoint: bedrock-mantle
@@ -1160,35 +1159,35 @@ models:
       global: true
     eu-central-1:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-central-2:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-north-1:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: true
     eu-south-1:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-south-2:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-west-1:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-west-2:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     eu-west-3:
       inRegion: false
-      geo: true
+      geo: false
       global: true
     ap-east-2:
       inRegion: false
