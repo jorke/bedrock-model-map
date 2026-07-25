@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-07-09T06:42:54Z",
+  "generatedAt": "2026-07-25T05:38:15Z",
   "modelCount": 116,
   "models": [
     {
@@ -8427,11 +8427,6 @@
           "geo": false,
           "global": false
         },
-        "ap-southeast-4": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
         "eu-west-1": {
           "inRegion": true,
           "geo": false,
@@ -8555,11 +8550,6 @@
           "inRegion": true,
           "geo": false,
           "global": false
-        },
-        "ap-southeast-4": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
         }
       }
     },
@@ -8644,11 +8634,6 @@
           "geo": false,
           "global": false
         },
-        "ap-southeast-4": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
         "sa-east-1": {
           "inRegion": true,
           "geo": false,
@@ -8728,11 +8713,6 @@
           "global": false
         },
         "ap-southeast-3": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "ap-southeast-4": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -9064,11 +9044,6 @@
           "global": false
         },
         "sa-east-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "ap-southeast-4": {
           "inRegion": true,
           "geo": false,
           "global": false

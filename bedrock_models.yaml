@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-07-09T06:42:54Z'
+generatedAt: '2026-07-25T05:38:15Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -6395,10 +6395,6 @@ models:
       inRegion: true
       geo: false
       global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
     eu-west-1:
       inRegion: true
       geo: false
@@ -6494,10 +6490,6 @@ models:
       inRegion: true
       geo: false
       global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
 - provider: Qwen
   modelName: Qwen3 Coder 480B A35B Instruct
   launchDate: Jul 23, 2025
@@ -6560,10 +6552,6 @@ models:
       inRegion: true
       geo: false
       global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
     sa-east-1:
       inRegion: true
       geo: false
@@ -6623,10 +6611,6 @@ models:
       geo: false
       global: false
     ap-southeast-3:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
       inRegion: true
       geo: false
       global: false
@@ -6879,10 +6863,6 @@ models:
       geo: false
       global: false
     sa-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
       inRegion: true
       geo: false
       global: false
