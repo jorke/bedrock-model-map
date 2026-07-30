@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-07-25T05:38:15Z'
+generatedAt: '2026-07-30T05:34:13Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -1288,7 +1288,6 @@ models:
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-haiku-4-5-20251001-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.anthropic.claude-haiku-4-5-20251001-v1:0
     - eu.anthropic.claude-haiku-4-5-20251001-v1:0
@@ -5051,22 +5050,6 @@ models:
       geo: false
       global: false
     sa-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-3:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
-    eu-north-1:
-      inRegion: true
-      geo: false
-      global: false
-    eu-west-2:
       inRegion: true
       geo: false
       global: false
