@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-07-30T05:34:13Z",
+  "generatedAt": "2026-08-02T05:57:03Z",
   "modelCount": 116,
   "models": [
     {
@@ -1491,7 +1491,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-fable-5",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-fable-5"
           ],
@@ -2016,7 +2015,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-opus-4-1-20250805-v1:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-opus-4-1-20250805-v1:0"
           ]
@@ -2073,7 +2071,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-opus-4-5-20251101-v1:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-opus-4-5-20251101-v1:0",
             "eu.anthropic.claude-opus-4-5-20251101-v1:0"
@@ -3111,7 +3108,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-sonnet-4-5-20250929-v1:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
             "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
