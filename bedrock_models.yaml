@@ -1,6 +1,6 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-03T06:15:13Z'
-modelCount: 116
+generatedAt: '2026-08-11T04:14:54Z'
+modelCount: 115
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
@@ -5440,81 +5440,6 @@ models:
       geo: false
       global: false
     eu-west-2:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Moonshot AI
-  modelName: Kimi K2.5
-  launchDate: Jan 27, 2026
-  modelLifecycle: Active
-  contextWindow: 256K tokens
-  maxOutputTokens: 16K
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: moonshotai.kimi-k2.5
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  - endpoint: bedrock-mantle
-    modelId: moonshotai.kimi-k2.5
-    endpointUrl: https://bedrock-mantle.{region}.api.aws/v1
-  serviceTiers:
-    standard: true
-    priority: true
-    flex: true
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    us-east-2:
-      inRegion: true
-      geo: false
-      global: false
-    us-west-2:
-      inRegion: true
-      geo: false
-      global: false
-    eu-north-1:
-      inRegion: true
-      geo: false
-      global: false
-    eu-west-2:
-      inRegion: true
-      geo: false
-      global: false
-    ap-northeast-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-south-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-2:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-3:
-      inRegion: true
-      geo: false
-      global: false
-    sa-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
       inRegion: true
       geo: false
       global: false
