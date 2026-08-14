@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-12T04:42:56Z'
+generatedAt: '2026-08-14T04:44:20Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -2243,7 +2243,6 @@ models:
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-sonnet-4-20250514-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.anthropic.claude-sonnet-4-20250514-v1:0
     - eu.anthropic.claude-sonnet-4-20250514-v1:0
@@ -2305,51 +2304,47 @@ models:
       geo: true
       global: false
     ap-east-2:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-northeast-2:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-northeast-3:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-south-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-south-2:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-southeast-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-southeast-2:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-southeast-3:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-southeast-4:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-southeast-5:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-southeast-7:
-      inRegion: true
-      geo: false
-      global: false
-    me-central-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
 - provider: Anthropic
