@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-15T03:33:12Z'
+generatedAt: '2026-08-16T03:42:08Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -2299,18 +2299,18 @@ models:
       inRegion: false
       geo: true
       global: false
-    ap-northeast-1:
-      inRegion: false
-      geo: true
-      global: true
     il-central-1:
       inRegion: false
       geo: true
       global: false
     ap-east-2:
       inRegion: false
-      geo: false
+      geo: true
       global: false
+    ap-northeast-1:
+      inRegion: false
+      geo: true
+      global: true
     ap-northeast-2:
       inRegion: false
       geo: true
@@ -2337,19 +2337,19 @@ models:
       global: false
     ap-southeast-3:
       inRegion: false
-      geo: false
+      geo: true
       global: false
     ap-southeast-4:
       inRegion: false
-      geo: false
+      geo: true
       global: false
     ap-southeast-5:
       inRegion: false
-      geo: false
+      geo: true
       global: false
     ap-southeast-7:
       inRegion: false
-      geo: false
+      geo: true
       global: false
 - provider: Anthropic
   modelName: Claude Sonnet 4.5
