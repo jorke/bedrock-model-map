@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-08-16T03:42:08Z",
+  "generatedAt": "2026-08-18T03:38:45Z",
   "modelCount": 116,
   "models": [
     {
@@ -4612,7 +4612,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 26B-A4B",
-      "launchDate": "Jun 10, 2025",
+      "launchDate": "Mar 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "inputModalities": [
@@ -4669,7 +4669,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 31B",
-      "launchDate": "Jun 10, 2025",
+      "launchDate": "Mar 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "inputModalities": [
@@ -4726,7 +4726,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 E2B",
-      "launchDate": "Jun 10, 2025",
+      "launchDate": "Mar 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "inputModalities": [
@@ -6269,26 +6269,6 @@
           "global": false
         },
         "sa-east-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "ap-southeast-3": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "ap-southeast-4": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "eu-central-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "eu-north-1": {
           "inRegion": true,
           "geo": false,
           "global": false
