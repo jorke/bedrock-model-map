@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-18T03:38:45Z'
+generatedAt: '2026-08-19T03:40:40Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -278,7 +278,7 @@ models:
 - provider: Amazon
   modelName: Nova Canvas
   launchDate: Dec 3, 2024
-  modelLifecycle: Legacy (certain regions)
+  modelLifecycle: Legacy
   inputModalities:
   - IMAGE
   - TEXT
@@ -299,15 +299,15 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     eu-west-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-northeast-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
 - provider: Amazon
@@ -631,7 +631,7 @@ models:
 - provider: Amazon
   modelName: Nova Reel
   launchDate: Dec 3, 2024
-  modelLifecycle: Legacy (certain regions)
+  modelLifecycle: Legacy
   inputModalities:
   - IMAGE
   - TEXT
@@ -652,15 +652,15 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     eu-west-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ap-northeast-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
 - provider: Amazon
@@ -3137,10 +3137,6 @@ models:
       inRegion: true
       geo: false
       global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
 - provider: DeepSeek
   modelName: DeepSeek-R1
   launchDate: Jan 20, 2025
@@ -3242,14 +3238,6 @@ models:
       geo: false
       global: false
     ap-southeast-3:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
-    sa-east-1:
       inRegion: true
       geo: false
       global: false
