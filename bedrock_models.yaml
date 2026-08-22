@@ -1,11 +1,11 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-19T03:40:40Z'
-modelCount: 116
+generatedAt: '2026-08-22T03:36:14Z'
+modelCount: 112
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
   launchDate: Aug 22, 2024
-  modelLifecycle: Active
+  modelLifecycle: Legacy
   contextWindow: 256K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Mar 2024
@@ -35,7 +35,7 @@ models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Mini
   launchDate: Aug 22, 2024
-  modelLifecycle: Active
+  modelLifecycle: Legacy
   contextWindow: 256K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Mar 2024
@@ -346,7 +346,7 @@ models:
       geo: true
       global: false
     us-east-2:
-      inRegion: false
+      inRegion: true
       geo: true
       global: false
     us-west-1:
@@ -354,12 +354,16 @@ models:
       geo: true
       global: false
     us-west-2:
-      inRegion: false
+      inRegion: true
       geo: true
       global: false
     ov-west-1:
       inRegion: true
       geo: false
+      global: false
+    ca-central-1:
+      inRegion: false
+      geo: true
       global: false
     eu-central-1:
       inRegion: false
@@ -391,11 +395,23 @@ models:
       global: false
     ap-northeast-1:
       inRegion: true
-      geo: false
+      geo: true
+      global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: true
+      global: false
+    ap-south-1:
+      inRegion: false
+      geo: true
+      global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: true
       global: false
     ap-southeast-2:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-southeast-3:
       inRegion: true
@@ -482,9 +498,25 @@ models:
       inRegion: false
       geo: true
       global: false
+    ap-northeast-1:
+      inRegion: false
+      geo: true
+      global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: true
+      global: false
+    ap-south-1:
+      inRegion: false
+      geo: true
+      global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: true
+      global: false
     ap-southeast-2:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     il-central-1:
       inRegion: false
@@ -612,9 +644,25 @@ models:
       inRegion: false
       geo: true
       global: false
+    ap-northeast-1:
+      inRegion: false
+      geo: true
+      global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: true
+      global: false
+    ap-south-1:
+      inRegion: false
+      geo: true
+      global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: true
+      global: false
     ap-southeast-2:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-southeast-3:
       inRegion: true
@@ -3734,41 +3782,6 @@ models:
       geo: false
       global: false
 - provider: Meta
-  modelName: Llama 3.1 405B Instruct
-  launchDate: Jul 23, 2024
-  modelLifecycle: Legacy
-  contextWindow: 128K tokens
-  maxOutputTokens: 4K
-  knowledgeCutoff: Dec 2023
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: meta.llama3-1-405b-instruct-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-    geoInferenceIds:
-    - us.meta.llama3-1-405b-instruct-v1:0
-  serviceTiers:
-    standard: true
-    priority: false
-    flex: false
-    reserved: false
-  regions:
-    us-east-2:
-      inRegion: false
-      geo: true
-      global: false
-    us-west-2:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Meta
   modelName: Llama 3.1 70B Instruct
   launchDate: Jul 23, 2024
   modelLifecycle: Active
@@ -5021,35 +5034,6 @@ models:
       geo: false
       global: false
 - provider: Mistral AI
-  modelName: Mistral Small
-  launchDate: Dec 16, 2025
-  modelLifecycle: Active
-  contextWindow: 32K tokens
-  maxOutputTokens: 4K
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: mistral.mistral-small-2402-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  serviceTiers:
-    standard: true
-    priority: true
-    flex: true
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Mistral AI
   modelName: Mixtral 8x7B Instruct
   launchDate: Dec 10, 2023
   modelLifecycle: Active
@@ -5336,81 +5320,6 @@ models:
       geo: false
       global: false
     eu-north-1:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Moonshot AI
-  modelName: Kimi K2 Thinking
-  launchDate: Nov 06, 2025
-  modelLifecycle: Active
-  contextWindow: 256K tokens
-  maxOutputTokens: 16K
-  reasoning: true
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: moonshot.kimi-k2-thinking
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  - endpoint: bedrock-mantle
-    modelId: moonshotai.kimi-k2-thinking
-    endpointUrl: https://bedrock-mantle.{region}.api.aws/v1
-  serviceTiers:
-    standard: true
-    priority: true
-    flex: true
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    us-east-2:
-      inRegion: true
-      geo: false
-      global: false
-    us-west-2:
-      inRegion: true
-      geo: false
-      global: false
-    ap-northeast-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-south-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-2:
-      inRegion: true
-      geo: false
-      global: false
-    sa-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-3:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
-      inRegion: true
-      geo: false
-      global: false
-    eu-north-1:
-      inRegion: true
-      geo: false
-      global: false
-    eu-west-2:
       inRegion: true
       geo: false
       global: false
@@ -6891,43 +6800,6 @@ models:
       geo: true
       global: false
 - provider: Stability AI
-  modelName: Stable Image Control Structure
-  launchDate: Apr 30, 2024
-  modelLifecycle: Active
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - IMAGE
-  apisSupported:
-  - Invoke
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: stability.stable-image-control-structure-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-    geoInferenceIds:
-    - us.stability.stable-image-control-structure-v1:0
-  serviceTiers:
-    standard: true
-    priority: false
-    flex: false
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: false
-      geo: true
-      global: false
-    us-east-2:
-      inRegion: false
-      geo: true
-      global: false
-    us-west-2:
-      inRegion: false
-      geo: true
-      global: false
-- provider: Stability AI
   modelName: Stable Image Creative Upscale
   launchDate: Mar 21, 2024
   modelLifecycle: Active
@@ -7341,7 +7213,7 @@ models:
 - provider: TwelveLabs
   modelName: Marengo Embed v2.7
   launchDate: Dec 4, 2024
-  modelLifecycle: Active
+  modelLifecycle: Legacy
   inputModalities:
   - IMAGE
   - SPEECH
