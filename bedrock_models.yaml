@@ -1,6 +1,6 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-22T03:36:14Z'
-modelCount: 112
+generatedAt: '2026-08-23T03:44:09Z'
+modelCount: 116
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
@@ -1017,16 +1017,6 @@ models:
   contextWindow: 200K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Aug 2023
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-3-haiku-20240307-v1:0
@@ -1115,15 +1105,6 @@ models:
   contextWindow: 200K tokens
   maxOutputTokens: 8K
   knowledgeCutoff: Jul 2024
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-3-5-haiku-20241022-v1:0
@@ -1156,18 +1137,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: January 2026
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  - Messages
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-fable-5
@@ -1324,18 +1293,6 @@ models:
   maxOutputTokens: 64K
   reasoning: true
   knowledgeCutoff: Feb 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  - Messages
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-haiku-4-5-20251001-v1:0
@@ -1495,15 +1452,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: January 2026
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Messages
-  endpointsSupported:
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: anthropic.claude-mythos-5
@@ -1526,15 +1474,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: Dec 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Messages
-  endpointsSupported:
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: anthropic.claude-mythos-preview
@@ -1561,16 +1500,6 @@ models:
   maxOutputTokens: 32K
   reasoning: true
   knowledgeCutoff: Mar 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-1-20250805-v1:0
@@ -1602,16 +1531,6 @@ models:
   maxOutputTokens: 64K
   reasoning: true
   knowledgeCutoff: Mar 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-5-20251101-v1:0
@@ -1766,16 +1685,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: May 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-6-v1
@@ -1932,18 +1841,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: January 2026
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  - Messages
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-7
@@ -2103,18 +2000,6 @@ models:
   maxOutputTokens: 128K
   reasoning: true
   knowledgeCutoff: January 2026
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  - Messages
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-8
@@ -2282,16 +2167,6 @@ models:
   maxOutputTokens: 64K
   reasoning: true
   knowledgeCutoff: Mar 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-sonnet-4-20250514-v1:0
@@ -2407,16 +2282,6 @@ models:
   maxOutputTokens: 64K
   reasoning: true
   knowledgeCutoff: Apr 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-sonnet-4-5-20250929-v1:0
@@ -2581,16 +2446,6 @@ models:
   maxOutputTokens: 64K
   reasoning: true
   knowledgeCutoff: Aug 2025
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-sonnet-4-6
@@ -3778,6 +3633,41 @@ models:
       geo: false
       global: false
     ap-south-1:
+      inRegion: true
+      geo: false
+      global: false
+- provider: Meta
+  modelName: Llama 3.1 405B Instruct
+  launchDate: Jul 23, 2024
+  modelLifecycle: Legacy
+  contextWindow: 128K tokens
+  maxOutputTokens: 4K
+  knowledgeCutoff: Dec 2023
+  inputModalities:
+  - TEXT
+  outputModalities:
+  - TEXT
+  apisSupported:
+  - Converse
+  endpointsSupported:
+  - bedrock-runtime
+  programmaticAccess:
+  - endpoint: bedrock-runtime
+    modelId: meta.llama3-1-405b-instruct-v1:0
+    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
+    geoInferenceIds:
+    - us.meta.llama3-1-405b-instruct-v1:0
+  serviceTiers:
+    standard: true
+    priority: false
+    flex: false
+    reserved: false
+  regions:
+    us-east-2:
+      inRegion: false
+      geo: true
+      global: false
+    us-west-2:
       inRegion: true
       geo: false
       global: false
@@ -5034,6 +4924,35 @@ models:
       geo: false
       global: false
 - provider: Mistral AI
+  modelName: Mistral Small
+  launchDate: Dec 16, 2025
+  modelLifecycle: Active
+  contextWindow: 32K tokens
+  maxOutputTokens: 4K
+  inputModalities:
+  - TEXT
+  outputModalities:
+  - TEXT
+  apisSupported:
+  - Invoke
+  - Converse
+  endpointsSupported:
+  - bedrock-runtime
+  programmaticAccess:
+  - endpoint: bedrock-runtime
+    modelId: mistral.mistral-small-2402-v1:0
+    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
+  serviceTiers:
+    standard: true
+    priority: true
+    flex: true
+    reserved: false
+  regions:
+    us-east-1:
+      inRegion: true
+      geo: false
+      global: false
+- provider: Mistral AI
   modelName: Mixtral 8x7B Instruct
   launchDate: Dec 10, 2023
   modelLifecycle: Active
@@ -5320,6 +5239,81 @@ models:
       geo: false
       global: false
     eu-north-1:
+      inRegion: true
+      geo: false
+      global: false
+- provider: Moonshot AI
+  modelName: Kimi K2 Thinking
+  launchDate: Nov 06, 2025
+  modelLifecycle: Active
+  contextWindow: 256K tokens
+  maxOutputTokens: 16K
+  reasoning: true
+  inputModalities:
+  - TEXT
+  outputModalities:
+  - TEXT
+  apisSupported:
+  - Chat Completions
+  - Invoke
+  - Converse
+  endpointsSupported:
+  - bedrock-runtime
+  - bedrock-mantle
+  programmaticAccess:
+  - endpoint: bedrock-runtime
+    modelId: moonshot.kimi-k2-thinking
+    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
+  - endpoint: bedrock-mantle
+    modelId: moonshotai.kimi-k2-thinking
+    endpointUrl: https://bedrock-mantle.{region}.api.aws/v1
+  serviceTiers:
+    standard: true
+    priority: true
+    flex: true
+    reserved: false
+  regions:
+    us-east-1:
+      inRegion: true
+      geo: false
+      global: false
+    us-east-2:
+      inRegion: true
+      geo: false
+      global: false
+    us-west-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-south-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    sa-east-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: true
+      geo: false
+      global: false
+    eu-west-2:
       inRegion: true
       geo: false
       global: false
@@ -6781,6 +6775,43 @@ models:
     endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.stability.stable-image-control-sketch-v1:0
+  serviceTiers:
+    standard: true
+    priority: false
+    flex: false
+    reserved: false
+  regions:
+    us-east-1:
+      inRegion: false
+      geo: true
+      global: false
+    us-east-2:
+      inRegion: false
+      geo: true
+      global: false
+    us-west-2:
+      inRegion: false
+      geo: true
+      global: false
+- provider: Stability AI
+  modelName: Stable Image Control Structure
+  launchDate: Apr 30, 2024
+  modelLifecycle: Active
+  inputModalities:
+  - IMAGE
+  - TEXT
+  outputModalities:
+  - IMAGE
+  apisSupported:
+  - Invoke
+  endpointsSupported:
+  - bedrock-runtime
+  programmaticAccess:
+  - endpoint: bedrock-runtime
+    modelId: stability.stable-image-control-structure-v1:0
+    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
+    geoInferenceIds:
+    - us.stability.stable-image-control-structure-v1:0
   serviceTiers:
     standard: true
     priority: false
