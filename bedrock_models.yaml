@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-23T03:44:09Z'
+generatedAt: '2026-08-24T03:49:09Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -5751,17 +5751,6 @@ models:
   modelLifecycle: Active
   contextWindow: 128K tokens
   maxOutputTokens: 16K
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: openai.gpt-oss-safeguard-120b
@@ -5837,17 +5826,6 @@ models:
   modelLifecycle: Active
   contextWindow: 128K tokens
   maxOutputTokens: 16K
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: openai.gpt-oss-safeguard-20b
@@ -5923,15 +5901,6 @@ models:
   modelLifecycle: Active
   contextWindow: 272K tokens
   maxOutputTokens: N/A
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Responses
-  endpointsSupported:
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: openai.gpt-5.4
@@ -5964,15 +5933,6 @@ models:
   modelLifecycle: Active
   contextWindow: 272K tokens
   maxOutputTokens: N/A
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Responses
-  endpointsSupported:
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: openai.gpt-5.5
@@ -5997,18 +5957,6 @@ models:
   modelLifecycle: Active
   contextWindow: 128K tokens
   maxOutputTokens: 16K
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Responses
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: openai.gpt-oss-120b-1:0
@@ -6090,18 +6038,6 @@ models:
   modelLifecycle: Active
   contextWindow: 128K tokens
   maxOutputTokens: 16K
-  inputModalities:
-  - TEXT
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Responses
-  - Chat Completions
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  - bedrock-mantle
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: openai.gpt-oss-20b-1:0

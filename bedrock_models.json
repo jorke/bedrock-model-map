@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-08-23T03:44:09Z",
+  "generatedAt": "2026-08-24T03:49:09Z",
   "modelCount": 116,
   "models": [
     {
@@ -7568,21 +7568,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Chat Completions",
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime",
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -7681,21 +7666,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Chat Completions",
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime",
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -7794,19 +7764,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "272K tokens",
       "maxOutputTokens": "N/A",
-      "inputModalities": [
-        "IMAGE",
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Responses"
-      ],
-      "endpointsSupported": [
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-mantle",
@@ -7850,19 +7807,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "272K tokens",
       "maxOutputTokens": "N/A",
-      "inputModalities": [
-        "IMAGE",
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Responses"
-      ],
-      "endpointsSupported": [
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-mantle",
@@ -7896,22 +7840,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Responses",
-        "Chat Completions",
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime",
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -8018,22 +7946,6 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Responses",
-        "Chat Completions",
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime",
-        "bedrock-mantle"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
