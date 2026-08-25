@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-08-24T03:49:09Z'
+generatedAt: '2026-08-25T03:42:27Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -1042,17 +1042,17 @@ models:
       inRegion: true
       geo: true
       global: false
-    ov-east-1:
-      inRegion: false
-      geo: true
+    ca-central-1:
+      inRegion: true
+      geo: false
       global: false
     ov-west-1:
       inRegion: true
       geo: false
       global: false
-    ca-central-1:
-      inRegion: true
-      geo: false
+    ov-east-1:
+      inRegion: false
+      geo: true
       global: false
     eu-central-1:
       inRegion: true
@@ -1076,23 +1076,23 @@ models:
       global: false
     ap-northeast-1:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-northeast-2:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-south-1:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-southeast-1:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     ap-southeast-2:
       inRegion: true
-      geo: false
+      geo: true
       global: false
     sa-east-1:
       inRegion: true
@@ -1154,7 +1154,7 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     us-east-2:
@@ -1313,7 +1313,7 @@ models:
     reserved: true
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     us-east-2:
@@ -1345,7 +1345,7 @@ models:
       geo: true
       global: true
     eu-north-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-south-1:
@@ -1357,7 +1357,7 @@ models:
       geo: true
       global: true
     eu-west-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-west-2:
@@ -1373,7 +1373,7 @@ models:
       geo: false
       global: true
     ap-northeast-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     ap-northeast-2:
@@ -1405,7 +1405,7 @@ models:
       geo: false
       global: true
     ap-southeast-4:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     ap-southeast-5:
@@ -1861,7 +1861,7 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     us-east-2:
@@ -1893,7 +1893,7 @@ models:
       geo: true
       global: true
     eu-north-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-south-1:
@@ -1905,7 +1905,7 @@ models:
       geo: true
       global: true
     eu-west-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-west-2:
@@ -1953,7 +1953,7 @@ models:
       geo: false
       global: true
     ap-southeast-4:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     ap-southeast-5:
@@ -2020,7 +2020,7 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     us-east-2:
@@ -2044,7 +2044,7 @@ models:
       geo: true
       global: true
     ov-west-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ov-east-1:
@@ -2060,7 +2060,7 @@ models:
       geo: true
       global: true
     eu-north-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-south-1:
@@ -2072,7 +2072,7 @@ models:
       geo: true
       global: true
     eu-west-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     eu-west-2:
@@ -2088,7 +2088,7 @@ models:
       geo: false
       global: true
     ap-northeast-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     ap-northeast-2:
@@ -2120,7 +2120,7 @@ models:
       geo: false
       global: true
     ap-southeast-4:
-      inRegion: true
+      inRegion: false
       geo: true
       global: true
     ap-southeast-5:
@@ -2222,10 +2222,6 @@ models:
       inRegion: false
       geo: true
       global: false
-    il-central-1:
-      inRegion: false
-      geo: true
-      global: false
     ap-east-2:
       inRegion: false
       geo: true
@@ -2274,6 +2270,10 @@ models:
       inRegion: false
       geo: true
       global: false
+    il-central-1:
+      inRegion: false
+      geo: true
+      global: false
 - provider: Anthropic
   modelName: Claude Sonnet 4.5
   launchDate: Sep 30, 2025
@@ -2314,14 +2314,6 @@ models:
       inRegion: false
       geo: true
       global: true
-    ov-east-1:
-      inRegion: false
-      geo: true
-      global: false
-    ov-west-1:
-      inRegion: false
-      geo: true
-      global: false
     ca-central-1:
       inRegion: false
       geo: true
@@ -2330,6 +2322,14 @@ models:
       inRegion: false
       geo: false
       global: true
+    ov-west-1:
+      inRegion: false
+      geo: true
+      global: false
+    ov-east-1:
+      inRegion: false
+      geo: true
+      global: false
     eu-central-1:
       inRegion: false
       geo: true
