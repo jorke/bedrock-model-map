@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-08-25T03:42:27Z",
+  "generatedAt": "2026-08-26T03:48:25Z",
   "modelCount": 116,
   "models": [
     {
@@ -11,19 +11,6 @@
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K",
       "knowledgeCutoff": "Mar 2024",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -53,19 +40,6 @@
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K",
       "knowledgeCutoff": "Mar 2024",
-      "inputModalities": [
-        "TEXT"
-      ],
-      "outputModalities": [
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Invoke",
-        "Converse"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime"
-      ],
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
