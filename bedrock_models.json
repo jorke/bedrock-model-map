@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-09-03T07:38:32Z",
+  "generatedAt": "2026-09-12T07:35:23Z",
   "modelCount": 116,
   "models": [
     {
@@ -7737,7 +7737,7 @@
       "modelName": "GPT-5.4",
       "launchDate": "June 1, 2026",
       "modelLifecycle": "Active",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "maxOutputTokens": "N/A",
       "programmaticAccess": [
         {
@@ -7780,7 +7780,7 @@
       "modelName": "GPT-5.5",
       "launchDate": "June 1, 2026",
       "modelLifecycle": "Active",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "maxOutputTokens": "N/A",
       "programmaticAccess": [
         {
