@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-09-12T07:35:23Z'
+generatedAt: '2026-09-14T08:27:26Z'
 modelCount: 116
 models:
 - provider: AI21 Labs
@@ -1278,7 +1278,6 @@ models:
   knowledgeCutoff: Feb 2025
   programmaticAccess:
   - endpoint: bedrock-runtime
-    modelId: anthropic.claude-haiku-4-5-20251001-v1:0
     geoInferenceIds:
     - us.anthropic.claude-haiku-4-5-20251001-v1:0
     - eu.anthropic.claude-haiku-4-5-20251001-v1:0
