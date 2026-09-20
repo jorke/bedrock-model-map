@@ -1,6 +1,6 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-09-14T08:27:26Z'
-modelCount: 116
+generatedAt: '2026-09-20T08:11:58Z'
+modelCount: 115
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
@@ -1445,32 +1445,6 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Anthropic
-  modelName: Claude Mythos Preview
-  launchDate: Apr 07, 2026
-  modelLifecycle: Preview
-  contextWindow: 1M tokens
-  maxOutputTokens: 128K
-  reasoning: true
-  knowledgeCutoff: Dec 2025
-  programmaticAccess:
-  - endpoint: bedrock-mantle
-    modelId: anthropic.claude-mythos-preview
-    endpointUrl: https://bedrock-mantle.{region}.api.aws
-  serviceTiers:
-    standard: true
-    priority: false
-    flex: false
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-southeast-4:
       inRegion: true
       geo: false
       global: false
