@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-09-20T08:11:58Z'
+generatedAt: '2026-09-29T09:23:06Z'
 modelCount: 115
 models:
 - provider: AI21 Labs
@@ -5855,8 +5855,8 @@ models:
   modelName: GPT-5.4
   launchDate: June 1, 2026
   modelLifecycle: Active
-  contextWindow: 1M tokens
-  maxOutputTokens: N/A
+  contextWindow: 1,050,000 tokens
+  maxOutputTokens: 128,000
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: openai.gpt-5.4
@@ -5887,8 +5887,8 @@ models:
   modelName: GPT-5.5
   launchDate: June 1, 2026
   modelLifecycle: Active
-  contextWindow: 1M tokens
-  maxOutputTokens: N/A
+  contextWindow: 1,050,000 tokens
+  maxOutputTokens: 128,000
   programmaticAccess:
   - endpoint: bedrock-mantle
     modelId: openai.gpt-5.5
