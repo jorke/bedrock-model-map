@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-09-29T09:23:06Z'
+generatedAt: '2026-09-30T09:13:15Z'
 modelCount: 115
 models:
 - provider: AI21 Labs
@@ -1283,6 +1283,7 @@ models:
     - eu.anthropic.claude-haiku-4-5-20251001-v1:0
     - au.anthropic.claude-haiku-4-5-20251001-v1:0
     - jp.anthropic.claude-haiku-4-5-20251001-v1:0
+    - in.anthropic.claude-haiku-4-5-20251001-v1:0
     globalInferenceIds:
     - global.anthropic.claude-haiku-4-5-20251001-v1:0
   - endpoint: bedrock-mantle
@@ -1368,11 +1369,11 @@ models:
       global: true
     ap-south-1:
       inRegion: false
-      geo: false
+      geo: true
       global: true
     ap-south-2:
       inRegion: false
-      geo: false
+      geo: true
       global: true
     ap-southeast-1:
       inRegion: false
