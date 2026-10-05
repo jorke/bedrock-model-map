@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-09-30T09:13:15Z",
+  "generatedAt": "2026-10-05T09:54:34Z",
   "modelCount": 115,
   "models": [
     {
@@ -3910,7 +3910,7 @@
       "provider": "DeepSeek",
       "modelName": "DeepSeek-R1",
       "launchDate": "Jan 20, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "reasoning": true,
@@ -3966,7 +3966,7 @@
       "provider": "DeepSeek",
       "modelName": "DeepSeek-V3.1",
       "launchDate": "Aug 21, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "knowledgeCutoff": "Jan 2025",
@@ -4055,7 +4055,7 @@
       "provider": "Google",
       "modelName": "Gemma 3 12B IT",
       "launchDate": "Mar 12, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -4169,7 +4169,7 @@
       "provider": "Google",
       "modelName": "Gemma 3 27B PT",
       "launchDate": "Mar 12, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -4283,7 +4283,7 @@
       "provider": "Google",
       "modelName": "Gemma 3 4B IT",
       "launchDate": "Mar 12, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -4443,6 +4443,11 @@
           "geo": false,
           "global": false
         },
+        "ov-west-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -4496,6 +4501,11 @@
           "global": false
         },
         "us-west-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ov-west-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -4558,6 +4568,11 @@
           "geo": false,
           "global": false
         },
+        "ov-west-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -4569,7 +4584,7 @@
       "provider": "Meta",
       "modelName": "Llama 3 70B Instruct",
       "launchDate": "Apr 18, 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K",
       "knowledgeCutoff": "Dec 2023",
@@ -4636,7 +4651,7 @@
       "provider": "Meta",
       "modelName": "Llama 3 8B Instruct",
       "launchDate": "Apr 18, 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K",
       "knowledgeCutoff": "Dec 2023",
@@ -4752,7 +4767,7 @@
       "provider": "Meta",
       "modelName": "Llama 3.1 70B Instruct",
       "launchDate": "Jul 23, 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K",
       "knowledgeCutoff": "Dec 2023",
@@ -4807,7 +4822,7 @@
       "provider": "Meta",
       "modelName": "Llama 3.1 8B Instruct",
       "launchDate": "Jul 23, 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K",
       "knowledgeCutoff": "Dec 2023",
@@ -5116,7 +5131,7 @@
       "provider": "Meta",
       "modelName": "Llama 3.3 70B Instruct",
       "launchDate": "Dec 06, 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K",
       "knowledgeCutoff": "Dec 2023",
@@ -5171,7 +5186,7 @@
       "provider": "Meta",
       "modelName": "Llama 4 Maverick 17B Instruct",
       "launchDate": "Apr 05, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K",
       "knowledgeCutoff": "Aug 2024",
@@ -5232,7 +5247,7 @@
       "provider": "Meta",
       "modelName": "Llama 4 Scout 17B Instruct",
       "launchDate": "Apr 05, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "10M tokens",
       "maxOutputTokens": "8K",
       "knowledgeCutoff": "Aug 2024",
@@ -5293,7 +5308,7 @@
       "provider": "MiniMax",
       "modelName": "MiniMax M2",
       "launchDate": "Oct 23, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -5406,7 +5421,7 @@
       "provider": "MiniMax",
       "modelName": "MiniMax M2.1",
       "launchDate": "Dec 23, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "196K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -5632,7 +5647,7 @@
       "provider": "Mistral AI",
       "modelName": "Devstral 2 123B",
       "launchDate": "Jun 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "32K",
       "inputModalities": [
@@ -6177,7 +6192,7 @@
       "provider": "Mistral AI",
       "modelName": "Mistral 7B Instruct",
       "launchDate": "Sep 28, 2023",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K",
       "inputModalities": [
@@ -6459,7 +6474,7 @@
       "provider": "Mistral AI",
       "modelName": "Mixtral 8x7B Instruct",
       "launchDate": "Dec 10, 2023",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K",
       "inputModalities": [
@@ -6616,7 +6631,7 @@
       "provider": "Mistral AI",
       "modelName": "Voxtral Mini 3B 2507",
       "launchDate": "Jul 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "32K tokens",
       "inputModalities": [
         "SPEECH",
@@ -6729,7 +6744,7 @@
       "provider": "Mistral AI",
       "modelName": "Voxtral Small 24B 2507",
       "launchDate": "Oct 30, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "32K tokens",
       "inputModalities": [
         "SPEECH",
@@ -6842,7 +6857,7 @@
       "provider": "Moonshot AI",
       "modelName": "Kimi K2 Thinking",
       "launchDate": "Nov 06, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K",
       "reasoning": true,
@@ -7141,7 +7156,7 @@
       "provider": "NVIDIA",
       "modelName": "NVIDIA Nemotron Nano 12B v2 VL BF16",
       "launchDate": "Oct 28, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -7263,7 +7278,7 @@
       "provider": "NVIDIA",
       "modelName": "NVIDIA Nemotron Nano 9B v2",
       "launchDate": "Aug 18, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -8207,7 +8222,7 @@
       "provider": "Qwen",
       "modelName": "Qwen3 Coder 480B A35B Instruct",
       "launchDate": "Jul 23, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
       "inputModalities": [
@@ -8546,7 +8561,7 @@
       "provider": "Qwen",
       "modelName": "Qwen3-Coder-30B-A3B-Instruct",
       "launchDate": "Jul 31, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K",
       "inputModalities": [
@@ -9864,7 +9879,7 @@
       "provider": "Z.AI",
       "modelName": "GLM 4.7",
       "launchDate": "Dec 22, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K",
       "inputModalities": [
@@ -9962,7 +9977,7 @@
       "provider": "Z.AI",
       "modelName": "GLM 4.7 Flash",
       "launchDate": "Jan 19, 2026",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K",
       "inputModalities": [
