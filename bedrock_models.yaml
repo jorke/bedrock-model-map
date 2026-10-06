@@ -1,6 +1,6 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-10-05T09:54:34Z'
-modelCount: 115
+generatedAt: '2026-10-06T09:41:23Z'
+modelCount: 114
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
@@ -501,49 +501,6 @@ models:
       geo: true
       global: false
     il-central-1:
-      inRegion: false
-      geo: true
-      global: false
-- provider: Amazon
-  modelName: Nova Premier
-  launchDate: Oct 31, 2025
-  modelLifecycle: Legacy
-  contextWindow: 1M tokens
-  maxOutputTokens: 25K
-  reasoning: true
-  knowledgeCutoff: Oct 2024
-  inputModalities:
-  - IMAGE
-  - TEXT
-  - VIDEO
-  outputModalities:
-  - TEXT
-  apisSupported:
-  - Invoke
-  - Converse
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: amazon.nova-premier-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-    geoInferenceIds:
-    - us.amazon.nova-premier-v1:0
-  serviceTiers:
-    standard: true
-    priority: true
-    flex: true
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: false
-      geo: true
-      global: false
-    us-east-2:
-      inRegion: false
-      geo: true
-      global: false
-    us-west-2:
       inRegion: false
       geo: true
       global: false
