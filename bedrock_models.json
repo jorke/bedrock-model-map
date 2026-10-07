@@ -1,7 +1,7 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-06T09:41:23Z",
-  "modelCount": 114,
+  "generatedAt": "2026-10-07T09:39:25Z",
+  "modelCount": 113,
   "models": [
     {
       "provider": "AI21 Labs",
@@ -1371,48 +1371,6 @@
         "sa-east-1": {
           "inRegion": true,
           "geo": false,
-          "global": false
-        }
-      }
-    },
-    {
-      "provider": "Anthropic",
-      "modelName": "Claude 3.5 Haiku",
-      "launchDate": "Nov 4, 2024",
-      "modelLifecycle": "Legacy",
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "8K",
-      "knowledgeCutoff": "Jul 2024",
-      "programmaticAccess": [
-        {
-          "endpoint": "bedrock-runtime",
-          "modelId": "anthropic.claude-3-5-haiku-20241022-v1:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
-          "geoInferenceIds": [
-            "us.anthropic.claude-3-5-haiku-20241022-v1:0"
-          ]
-        }
-      ],
-      "serviceTiers": {
-        "standard": true,
-        "priority": false,
-        "flex": false,
-        "reserved": false
-      },
-      "regions": {
-        "us-east-1": {
-          "inRegion": false,
-          "geo": true,
-          "global": false
-        },
-        "us-east-2": {
-          "inRegion": false,
-          "geo": true,
-          "global": false
-        },
-        "us-west-2": {
-          "inRegion": true,
-          "geo": true,
           "global": false
         }
       }
@@ -9414,7 +9372,8 @@
           "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.twelvelabs.pegasus-1-2-v1:0",
-            "eu.twelvelabs.pegasus-1-2-v1:0"
+            "eu.twelvelabs.pegasus-1-2-v1:0",
+            "apac.twelvelabs.pegasus-1-2-v1:0"
           ],
           "globalInferenceIds": [
             "global.twelvelabs.pegasus-1-2-v1:0"
@@ -9510,7 +9469,7 @@
         },
         "ap-northeast-2": {
           "inRegion": true,
-          "geo": false,
+          "geo": true,
           "global": true
         },
         "ap-northeast-3": {
