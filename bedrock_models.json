@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-07T09:39:25Z",
+  "generatedAt": "2026-10-08T09:49:36Z",
   "modelCount": 113,
   "models": [
     {
@@ -766,6 +766,11 @@
           "geo": true,
           "global": false
         },
+        "ap-east-2": {
+          "inRegion": false,
+          "geo": true,
+          "global": false
+        },
         "ap-northeast-1": {
           "inRegion": false,
           "geo": true,
@@ -793,7 +798,22 @@
         },
         "ap-southeast-3": {
           "inRegion": true,
-          "geo": false,
+          "geo": true,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
+          "geo": true,
+          "global": false
+        },
+        "ap-southeast-5": {
+          "inRegion": false,
+          "geo": true,
+          "global": false
+        },
+        "ap-southeast-7": {
+          "inRegion": false,
+          "geo": true,
           "global": false
         },
         "il-central-1": {
@@ -803,7 +823,7 @@
         },
         "me-central-1": {
           "inRegion": true,
-          "geo": false,
+          "geo": true,
           "global": false
         }
       }
@@ -7942,6 +7962,11 @@
         "reserved": false
       },
       "regions": {
+        "us-east-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "us-east-2": {
           "inRegion": true,
           "geo": false,
@@ -7967,6 +7992,11 @@
           "geo": false,
           "global": false
         },
+        "eu-west-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "eu-west-2": {
           "inRegion": true,
           "geo": false,
@@ -7977,8 +8007,18 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -7992,18 +8032,13 @@
           "geo": false,
           "global": false
         },
-        "eu-west-1": {
-          "inRegion": true,
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
         "sa-east-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "us-east-1": {
-          "inRegion": true,
+          "inRegion": false,
           "geo": false,
           "global": false
         }
@@ -8096,8 +8131,18 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8108,6 +8153,11 @@
         },
         "ap-southeast-3": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8159,6 +8209,11 @@
         "reserved": false
       },
       "regions": {
+        "us-east-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "us-east-2": {
           "inRegion": true,
           "geo": false,
@@ -8184,8 +8239,18 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8199,13 +8264,13 @@
           "geo": false,
           "global": false
         },
-        "sa-east-1": {
-          "inRegion": true,
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
-        "us-east-1": {
-          "inRegion": true,
+        "sa-east-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         }
@@ -8257,13 +8322,78 @@
           "geo": false,
           "global": false
         },
+        "us-east-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "us-west-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-central-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-south-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-west-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "eu-west-2": {
           "inRegion": true,
           "geo": false,
           "global": false
         },
+        "ap-northeast-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-south-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-southeast-2": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "sa-east-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         }
@@ -8326,6 +8456,16 @@
           "geo": false,
           "global": false
         },
+        "eu-central-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "eu-south-1": {
           "inRegion": true,
           "geo": false,
@@ -8346,13 +8486,33 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
           "geo": false,
           "global": false
         },
+        "ap-southeast-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-southeast-2": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8420,6 +8580,16 @@
           "geo": false,
           "global": false
         },
+        "eu-central-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "eu-south-1": {
           "inRegion": true,
           "geo": false,
@@ -8440,13 +8610,33 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
           "geo": false,
           "global": false
         },
+        "ap-southeast-1": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-southeast-2": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8543,8 +8733,18 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": false,
+          "geo": false,
+          "global": false
+        },
         "ap-south-1": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -8555,6 +8755,11 @@
         },
         "ap-southeast-3": {
           "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": false,
           "geo": false,
           "global": false
         },

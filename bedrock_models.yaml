@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-10-07T09:39:25Z'
+generatedAt: '2026-10-08T09:49:36Z'
 modelCount: 113
 models:
 - provider: AI21 Labs
@@ -584,6 +584,10 @@ models:
       inRegion: false
       geo: true
       global: false
+    ap-east-2:
+      inRegion: false
+      geo: true
+      global: false
     ap-northeast-1:
       inRegion: false
       geo: true
@@ -606,7 +610,19 @@ models:
       global: false
     ap-southeast-3:
       inRegion: true
-      geo: false
+      geo: true
+      global: false
+    ap-southeast-4:
+      inRegion: false
+      geo: true
+      global: false
+    ap-southeast-5:
+      inRegion: false
+      geo: true
+      global: false
+    ap-southeast-7:
+      inRegion: false
+      geo: true
       global: false
     il-central-1:
       inRegion: false
@@ -614,7 +630,7 @@ models:
       global: false
     me-central-1:
       inRegion: true
-      geo: false
+      geo: true
       global: false
 - provider: Amazon
   modelName: Nova Reel
@@ -6039,6 +6055,10 @@ models:
     flex: true
     reserved: false
   regions:
+    us-east-1:
+      inRegion: false
+      geo: false
+      global: false
     us-east-2:
       inRegion: true
       geo: false
@@ -6059,6 +6079,10 @@ models:
       inRegion: true
       geo: false
       global: false
+    eu-west-1:
+      inRegion: false
+      geo: false
+      global: false
     eu-west-2:
       inRegion: true
       geo: false
@@ -6067,8 +6091,16 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: false
       geo: false
       global: false
     ap-southeast-2:
@@ -6079,16 +6111,12 @@ models:
       inRegion: true
       geo: false
       global: false
-    eu-west-1:
-      inRegion: true
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
     sa-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    us-east-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
 - provider: Qwen
@@ -6158,8 +6186,16 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: false
       geo: false
       global: false
     ap-southeast-2:
@@ -6168,6 +6204,10 @@ models:
       global: false
     ap-southeast-3:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
     sa-east-1:
@@ -6204,6 +6244,10 @@ models:
     flex: true
     reserved: false
   regions:
+    us-east-1:
+      inRegion: false
+      geo: false
+      global: false
     us-east-2:
       inRegion: true
       geo: false
@@ -6224,8 +6268,16 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: false
       geo: false
       global: false
     ap-southeast-2:
@@ -6236,12 +6288,12 @@ models:
       inRegion: true
       geo: false
       global: false
-    sa-east-1:
-      inRegion: true
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
-    us-east-1:
-      inRegion: true
+    sa-east-1:
+      inRegion: false
       geo: false
       global: false
 - provider: Qwen
@@ -6278,12 +6330,64 @@ models:
       inRegion: true
       geo: false
       global: false
+    us-east-2:
+      inRegion: false
+      geo: false
+      global: false
+    us-west-2:
+      inRegion: false
+      geo: false
+      global: false
+    eu-central-1:
+      inRegion: false
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: false
+      geo: false
+      global: false
+    eu-south-1:
+      inRegion: false
+      geo: false
+      global: false
+    eu-west-1:
+      inRegion: false
+      geo: false
+      global: false
     eu-west-2:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-1:
+      inRegion: false
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
+    ap-south-1:
+      inRegion: false
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: false
+      global: false
     ap-southeast-2:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: false
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: false
+      geo: false
+      global: false
+    sa-east-1:
+      inRegion: false
       geo: false
       global: false
 - provider: Qwen
@@ -6329,6 +6433,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    eu-central-1:
+      inRegion: false
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: false
+      geo: false
+      global: false
     eu-south-1:
       inRegion: true
       geo: false
@@ -6345,12 +6457,28 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
       geo: false
       global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: false
+      global: false
     ap-southeast-2:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: false
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
     sa-east-1:
@@ -6400,6 +6528,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    eu-central-1:
+      inRegion: false
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: false
+      geo: false
+      global: false
     eu-south-1:
       inRegion: true
       geo: false
@@ -6416,12 +6552,28 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
       geo: false
       global: false
+    ap-southeast-1:
+      inRegion: false
+      geo: false
+      global: false
     ap-southeast-2:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: false
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
     sa-east-1:
@@ -6494,8 +6646,16 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: false
+      geo: false
+      global: false
     ap-south-1:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: false
       geo: false
       global: false
     ap-southeast-2:
@@ -6504,6 +6664,10 @@ models:
       global: false
     ap-southeast-3:
       inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: false
       geo: false
       global: false
     sa-east-1:
