@@ -1,7 +1,7 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-08T09:49:36Z",
-  "modelCount": 113,
+  "generatedAt": "2026-10-09T09:53:55Z",
+  "modelCount": 111,
   "models": [
     {
       "provider": "AI21 Labs",
@@ -396,7 +396,7 @@
       "launchDate": "Dec 05, 2024",
       "modelLifecycle": "Active",
       "contextWindow": "300K tokens",
-      "maxOutputTokens": "5K",
+      "maxOutputTokens": "10K",
       "knowledgeCutoff": "Oct 2024",
       "inputModalities": [
         "IMAGE",
@@ -420,7 +420,8 @@
           "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.amazon.nova-lite-v1:0",
-            "eu.amazon.nova-lite-v1:0"
+            "eu.amazon.nova-lite-v1:0",
+            "apac.amazon.nova-lite-v1:0"
           ]
         }
       ],
@@ -544,7 +545,7 @@
       "launchDate": "Dec 05, 2024",
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
-      "maxOutputTokens": "5K",
+      "maxOutputTokens": "10K",
       "knowledgeCutoff": "Oct 2024",
       "inputModalities": [
         "TEXT"
@@ -670,7 +671,7 @@
       "launchDate": "Dec 05, 2024",
       "modelLifecycle": "Active",
       "contextWindow": "300K tokens",
-      "maxOutputTokens": "5K",
+      "maxOutputTokens": "10K",
       "knowledgeCutoff": "Oct 2024",
       "inputModalities": [
         "IMAGE",
@@ -879,56 +880,6 @@
     },
     {
       "provider": "Amazon",
-      "modelName": "Nova Sonic",
-      "launchDate": "Mar 2025",
-      "modelLifecycle": "Legacy",
-      "inputModalities": [
-        "SPEECH"
-      ],
-      "outputModalities": [
-        "SPEECH",
-        "TEXT"
-      ],
-      "apisSupported": [
-        "Invoke",
-        "InvokeModelWithBidirectionalStream"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime"
-      ],
-      "programmaticAccess": [
-        {
-          "endpoint": "bedrock-runtime",
-          "modelId": "amazon.nova-sonic-v1:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com"
-        }
-      ],
-      "serviceTiers": {
-        "standard": true,
-        "priority": false,
-        "flex": false,
-        "reserved": false
-      },
-      "regions": {
-        "us-east-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "eu-north-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "ap-northeast-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        }
-      }
-    },
-    {
-      "provider": "Amazon",
       "modelName": "Titan Embeddings G1 - Text",
       "launchDate": "Sep 28, 2023",
       "modelLifecycle": "Active",
@@ -1002,50 +953,6 @@
           "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com"
         }
       ],
-      "regions": {
-        "us-east-1": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        },
-        "us-west-2": {
-          "inRegion": true,
-          "geo": false,
-          "global": false
-        }
-      }
-    },
-    {
-      "provider": "Amazon",
-      "modelName": "Titan Image Generator G1 v2",
-      "launchDate": "Nov 29, 2023",
-      "modelLifecycle": "Legacy",
-      "inputModalities": [
-        "IMAGE",
-        "TEXT"
-      ],
-      "outputModalities": [
-        "IMAGE"
-      ],
-      "apisSupported": [
-        "Invoke"
-      ],
-      "endpointsSupported": [
-        "bedrock-runtime"
-      ],
-      "programmaticAccess": [
-        {
-          "endpoint": "bedrock-runtime",
-          "modelId": "amazon.titan-image-generator-v2:0",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com"
-        }
-      ],
-      "serviceTiers": {
-        "standard": true,
-        "priority": false,
-        "flex": false,
-        "reserved": false
-      },
       "regions": {
         "us-east-1": {
           "inRegion": true,
@@ -2079,7 +1986,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-opus-4-6-v1",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-opus-4-6-v1",
             "eu.anthropic.claude-opus-4-6-v1",
@@ -2831,7 +2737,7 @@
       "provider": "Anthropic",
       "modelName": "Claude Sonnet 4.5",
       "launchDate": "Sep 30, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K",
       "reasoning": true,
@@ -3048,7 +2954,6 @@
         {
           "endpoint": "bedrock-runtime",
           "modelId": "anthropic.claude-sonnet-4-6",
-          "endpointUrl": "https://bedrock-runtime.{region}.amazonaws.com",
           "geoInferenceIds": [
             "us.anthropic.claude-sonnet-4-6",
             "eu.anthropic.claude-sonnet-4-6",
@@ -3819,6 +3724,21 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "sa-east-1": {
           "inRegion": true,
           "geo": false,
@@ -3964,7 +3884,27 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "us-east-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "sa-east-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -4069,6 +4009,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -4187,6 +4137,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -4301,6 +4261,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -4316,7 +4286,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 26B-A4B",
-      "launchDate": "Mar 31, 2026",
+      "launchDate": "March 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "inputModalities": [
@@ -4378,7 +4348,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 31B",
-      "launchDate": "Mar 31, 2026",
+      "launchDate": "March 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "inputModalities": [
@@ -4440,7 +4410,7 @@
     {
       "provider": "Google",
       "modelName": "Gemma 4 E2B",
-      "launchDate": "Mar 31, 2026",
+      "launchDate": "March 31, 2026",
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "inputModalities": [
@@ -5325,6 +5295,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -5447,6 +5427,16 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -5560,6 +5550,16 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -5668,6 +5668,21 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-south-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -5770,6 +5785,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -5888,6 +5913,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -5972,6 +6007,16 @@
           "geo": false,
           "global": false
         },
+        "eu-central-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "ap-northeast-1": {
           "inRegion": true,
           "geo": false,
@@ -5983,6 +6028,26 @@
           "global": false
         },
         "ap-southeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -6092,6 +6157,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -6342,7 +6417,37 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "sa-east-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "eu-west-2": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -6648,6 +6753,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -6761,6 +6876,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -6856,6 +6981,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -6968,6 +7103,16 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -7045,6 +7190,16 @@
           "geo": false,
           "global": false
         },
+        "eu-central-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "eu-north-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "ap-northeast-1": {
           "inRegion": true,
           "geo": false,
@@ -7061,6 +7216,26 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-south-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-3": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -7173,6 +7348,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -7298,6 +7483,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "ov-west-1": {
           "inRegion": true,
           "geo": false,
@@ -7419,6 +7614,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "ov-west-1": {
           "inRegion": true,
           "geo": false,
@@ -7522,6 +7727,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -7616,6 +7831,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -7807,6 +8032,16 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "ov-west-1": {
           "inRegion": true,
           "geo": false,
@@ -7909,6 +8144,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false
@@ -9831,6 +10076,21 @@
           "geo": false,
           "global": false
         },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-south-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
         "eu-central-1": {
           "inRegion": true,
           "geo": false,
@@ -10076,6 +10336,16 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -10189,6 +10459,16 @@
           "inRegion": true,
           "geo": false,
           "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
         }
       }
     },
@@ -10284,6 +10564,16 @@
           "global": false
         },
         "ap-southeast-4": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-northeast-2": {
+          "inRegion": true,
+          "geo": false,
+          "global": false
+        },
+        "ap-southeast-1": {
           "inRegion": true,
           "geo": false,
           "global": false

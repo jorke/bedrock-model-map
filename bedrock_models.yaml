@@ -1,6 +1,6 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-10-08T09:49:36Z'
-modelCount: 113
+generatedAt: '2026-10-09T09:53:55Z'
+modelCount: 111
 models:
 - provider: AI21 Labs
   modelName: Jamba 1.5 Large
@@ -297,7 +297,7 @@ models:
   launchDate: Dec 05, 2024
   modelLifecycle: Active
   contextWindow: 300K tokens
-  maxOutputTokens: 5K
+  maxOutputTokens: 10K
   knowledgeCutoff: Oct 2024
   inputModalities:
   - IMAGE
@@ -317,6 +317,7 @@ models:
     geoInferenceIds:
     - us.amazon.nova-lite-v1:0
     - eu.amazon.nova-lite-v1:0
+    - apac.amazon.nova-lite-v1:0
   serviceTiers:
     standard: true
     priority: false
@@ -412,7 +413,7 @@ models:
   launchDate: Dec 05, 2024
   modelLifecycle: Active
   contextWindow: 128K tokens
-  maxOutputTokens: 5K
+  maxOutputTokens: 10K
   knowledgeCutoff: Oct 2024
   inputModalities:
   - TEXT
@@ -509,7 +510,7 @@ models:
   launchDate: Dec 05, 2024
   modelLifecycle: Active
   contextWindow: 300K tokens
-  maxOutputTokens: 5K
+  maxOutputTokens: 10K
   knowledgeCutoff: Oct 2024
   inputModalities:
   - IMAGE
@@ -668,42 +669,6 @@ models:
       geo: false
       global: false
 - provider: Amazon
-  modelName: Nova Sonic
-  launchDate: Mar 2025
-  modelLifecycle: Legacy
-  inputModalities:
-  - SPEECH
-  outputModalities:
-  - SPEECH
-  - TEXT
-  apisSupported:
-  - Invoke
-  - InvokeModelWithBidirectionalStream
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: amazon.nova-sonic-v1:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  serviceTiers:
-    standard: true
-    priority: false
-    flex: false
-    reserved: false
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    eu-north-1:
-      inRegion: true
-      geo: false
-      global: false
-    ap-northeast-1:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Amazon
   modelName: Titan Embeddings G1 - Text
   launchDate: Sep 28, 2023
   modelLifecycle: Active
@@ -756,37 +721,6 @@ models:
   - endpoint: bedrock-runtime
     modelId: amazon.titan-embed-g1-text-02
     endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  regions:
-    us-east-1:
-      inRegion: true
-      geo: false
-      global: false
-    us-west-2:
-      inRegion: true
-      geo: false
-      global: false
-- provider: Amazon
-  modelName: Titan Image Generator G1 v2
-  launchDate: Nov 29, 2023
-  modelLifecycle: Legacy
-  inputModalities:
-  - IMAGE
-  - TEXT
-  outputModalities:
-  - IMAGE
-  apisSupported:
-  - Invoke
-  endpointsSupported:
-  - bedrock-runtime
-  programmaticAccess:
-  - endpoint: bedrock-runtime
-    modelId: amazon.titan-image-generator-v2:0
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
-  serviceTiers:
-    standard: true
-    priority: false
-    flex: false
-    reserved: false
   regions:
     us-east-1:
       inRegion: true
@@ -1587,7 +1521,6 @@ models:
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-opus-4-6-v1
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.anthropic.claude-opus-4-6-v1
     - eu.anthropic.claude-opus-4-6-v1
@@ -2176,7 +2109,7 @@ models:
 - provider: Anthropic
   modelName: Claude Sonnet 4.5
   launchDate: Sep 30, 2025
-  modelLifecycle: Active
+  modelLifecycle: Legacy
   contextWindow: 200K tokens
   maxOutputTokens: 64K
   reasoning: true
@@ -2348,7 +2281,6 @@ models:
   programmaticAccess:
   - endpoint: bedrock-runtime
     modelId: anthropic.claude-sonnet-4-6
-    endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.anthropic.claude-sonnet-4-6
     - eu.anthropic.claude-sonnet-4-6
@@ -2935,6 +2867,18 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
     sa-east-1:
       inRegion: true
       geo: false
@@ -3043,7 +2987,23 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
     us-east-1:
+      inRegion: true
+      geo: false
+      global: false
+    sa-east-1:
       inRegion: true
       geo: false
       global: false
@@ -3123,6 +3083,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -3213,6 +3181,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -3300,6 +3276,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -3310,7 +3294,7 @@ models:
       global: false
 - provider: Google
   modelName: Gemma 4 26B-A4B
-  launchDate: Mar 31, 2026
+  launchDate: March 31, 2026
   modelLifecycle: Active
   contextWindow: 256K tokens
   inputModalities:
@@ -3356,7 +3340,7 @@ models:
       global: false
 - provider: Google
   modelName: Gemma 4 31B
-  launchDate: Mar 31, 2026
+  launchDate: March 31, 2026
   modelLifecycle: Active
   contextWindow: 256K tokens
   inputModalities:
@@ -3402,7 +3386,7 @@ models:
       global: false
 - provider: Google
   modelName: Gemma 4 E2B
-  launchDate: Mar 31, 2026
+  launchDate: March 31, 2026
   modelLifecycle: Active
   contextWindow: 128K tokens
   inputModalities:
@@ -4058,6 +4042,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -4152,6 +4144,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: MiniMax
   modelName: MiniMax M2.5
   launchDate: Feb 12, 2026
@@ -4238,6 +4238,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: Mistral AI
   modelName: Devstral 2 123B
   launchDate: Jun 2025
@@ -4320,6 +4328,18 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-south-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: Mistral AI
   modelName: Magistral Small 2509
   launchDate: Sep 2025
@@ -4397,6 +4417,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -4487,6 +4515,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -4550,6 +4586,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    eu-central-1:
+      inRegion: true
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: true
+      geo: false
+      global: false
     ap-northeast-1:
       inRegion: true
       geo: false
@@ -4559,6 +4603,22 @@ models:
       geo: false
       global: false
     ap-southeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
       inRegion: true
       geo: false
       global: false
@@ -4642,6 +4702,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -4830,7 +4898,31 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
     sa-east-1:
+      inRegion: true
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: true
+      geo: false
+      global: false
+    eu-west-2:
       inRegion: true
       geo: false
       global: false
@@ -5059,6 +5151,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -5145,6 +5245,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -5217,6 +5325,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -5303,6 +5419,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: NVIDIA
   modelName: NVIDIA Nemotron 3 Super 120B
   launchDate: Mar 11, 2026
@@ -5359,6 +5483,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    eu-central-1:
+      inRegion: true
+      geo: false
+      global: false
+    eu-north-1:
+      inRegion: true
+      geo: false
+      global: false
     ap-northeast-1:
       inRegion: true
       geo: false
@@ -5372,6 +5504,22 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-south-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-3:
       inRegion: true
       geo: false
       global: false
@@ -5457,6 +5605,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -5552,6 +5708,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     ov-west-1:
       inRegion: true
       geo: false
@@ -5644,6 +5808,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     ov-west-1:
       inRegion: true
       geo: false
@@ -5723,6 +5895,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -5795,6 +5975,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -5939,6 +6127,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     ov-west-1:
       inRegion: true
       geo: false
@@ -6017,6 +6213,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
@@ -7448,6 +7652,18 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-south-1:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
     eu-central-1:
       inRegion: true
       geo: false
@@ -7632,6 +7848,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: Z.AI
   modelName: GLM 4.7 Flash
   launchDate: Jan 19, 2026
@@ -7718,6 +7942,14 @@ models:
       inRegion: true
       geo: false
       global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
+      inRegion: true
+      geo: false
+      global: false
 - provider: Z.AI
   modelName: GLM 5
   launchDate: Feb 11, 2026
@@ -7789,6 +8021,14 @@ models:
       geo: false
       global: false
     ap-southeast-4:
+      inRegion: true
+      geo: false
+      global: false
+    ap-northeast-2:
+      inRegion: true
+      geo: false
+      global: false
+    ap-southeast-1:
       inRegion: true
       geo: false
       global: false
