@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-10-09T09:53:55Z'
+generatedAt: '2026-10-12T10:05:57Z'
 modelCount: 111
 models:
 - provider: AI21 Labs
@@ -316,6 +316,7 @@ models:
     endpointUrl: https://bedrock-runtime.{region}.amazonaws.com
     geoInferenceIds:
     - us.amazon.nova-lite-v1:0
+    - ca.amazon.nova-lite-v1:0
     - eu.amazon.nova-lite-v1:0
     - apac.amazon.nova-lite-v1:0
   serviceTiers:
@@ -345,6 +346,10 @@ models:
       geo: false
       global: false
     ca-central-1:
+      inRegion: false
+      geo: true
+      global: false
+    ca-west-1:
       inRegion: false
       geo: true
       global: false
@@ -921,51 +926,51 @@ models:
     reserved: false
   regions:
     us-east-1:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: false
     us-east-2:
       inRegion: false
-      geo: true
+      geo: false
       global: false
     us-west-2:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: false
     ca-central-1:
       inRegion: true
       geo: false
       global: false
     ov-west-1:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     ov-east-1:
       inRegion: false
-      geo: true
+      geo: false
       global: false
     eu-central-1:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: false
     eu-central-2:
       inRegion: true
       geo: false
       global: false
     eu-west-1:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: false
     eu-west-2:
-      inRegion: true
+      inRegion: false
       geo: false
       global: false
     eu-west-3:
-      inRegion: true
-      geo: true
+      inRegion: false
+      geo: false
       global: false
     ap-northeast-1:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     ap-northeast-2:
@@ -981,7 +986,7 @@ models:
       geo: true
       global: false
     ap-southeast-2:
-      inRegion: true
+      inRegion: false
       geo: true
       global: false
     sa-east-1:
@@ -1195,6 +1200,14 @@ models:
       inRegion: false
       geo: false
       global: true
+    ov-west-1:
+      inRegion: false
+      geo: true
+      global: false
+    ov-east-1:
+      inRegion: false
+      geo: true
+      global: false
     eu-central-1:
       inRegion: false
       geo: true
@@ -7779,7 +7792,7 @@ models:
   launchDate: Dec 22, 2025
   modelLifecycle: Legacy
   contextWindow: 203K tokens
-  maxOutputTokens: 4K
+  maxOutputTokens: 128K
   inputModalities:
   - TEXT
   outputModalities:
@@ -7861,7 +7874,7 @@ models:
   launchDate: Jan 19, 2026
   modelLifecycle: Legacy
   contextWindow: 203K tokens
-  maxOutputTokens: 4K
+  maxOutputTokens: 128K
   inputModalities:
   - TEXT
   outputModalities:
