@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-12T10:05:57Z",
+  "generatedAt": "2026-10-14T08:17:57Z",
   "modelCount": 111,
   "models": [
     {
@@ -2406,7 +2406,8 @@
             "us.anthropic.claude-opus-4-8",
             "eu.anthropic.claude-opus-4-8",
             "jp.anthropic.claude-opus-4-8",
-            "au.anthropic.claude-opus-4-8"
+            "au.anthropic.claude-opus-4-8",
+            "us-gov.anthropic.claude-opus-4-8"
           ],
           "globalInferenceIds": [
             "global.anthropic.claude-opus-4-8"
@@ -7882,6 +7883,16 @@
       "maxOutputTokens": "128,000",
       "programmaticAccess": [
         {
+          "endpoint": "bedrock-runtime",
+          "modelId": "openai.gpt-5.4",
+          "geoInferenceIds": [
+            "us.openai.gpt-5.4"
+          ],
+          "globalInferenceIds": [
+            "global.openai.gpt-5.4"
+          ]
+        },
+        {
           "endpoint": "bedrock-mantle",
           "modelId": "openai.gpt-5.4",
           "endpointUrl": "https://bedrock-mantle.{region}.api.aws/openai/v1"
@@ -7924,6 +7935,16 @@
       "contextWindow": "1,050,000 tokens",
       "maxOutputTokens": "128,000",
       "programmaticAccess": [
+        {
+          "endpoint": "bedrock-runtime",
+          "modelId": "openai.gpt-5.5",
+          "geoInferenceIds": [
+            "us.openai.gpt-5.5"
+          ],
+          "globalInferenceIds": [
+            "global.openai.gpt-5.5"
+          ]
+        },
         {
           "endpoint": "bedrock-mantle",
           "modelId": "openai.gpt-5.5",
