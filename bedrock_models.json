@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-14T08:17:57Z",
+  "generatedAt": "2026-10-16T07:47:48Z",
   "modelCount": 111,
   "models": [
     {
@@ -114,6 +114,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "64K",
+      "reasoning": true,
       "knowledgeCutoff": "Oct 2025",
       "inputModalities": [
         "IMAGE",
@@ -7140,6 +7141,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "32K",
+      "reasoning": true,
       "inputModalities": [
         "TEXT"
       ],
@@ -7534,6 +7536,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "8K",
+      "reasoning": true,
       "inputModalities": [
         "TEXT"
       ],
@@ -7665,6 +7668,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
+      "reasoning": true,
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -7773,6 +7777,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
+      "reasoning": true,
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -7977,6 +7982,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
+      "reasoning": true,
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
@@ -8093,6 +8099,7 @@
       "modelLifecycle": "Active",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K",
+      "reasoning": true,
       "programmaticAccess": [
         {
           "endpoint": "bedrock-runtime",
