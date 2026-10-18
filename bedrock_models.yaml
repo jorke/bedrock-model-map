@@ -1,5 +1,5 @@
 source: https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html
-generatedAt: '2026-10-16T07:47:48Z'
+generatedAt: '2026-10-18T07:41:18Z'
 modelCount: 111
 models:
 - provider: AI21 Labs
@@ -261,7 +261,7 @@ models:
 - provider: Amazon
   modelName: Nova Canvas
   launchDate: Dec 3, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-09-30'
   inputModalities:
   - IMAGE
   - TEXT
@@ -642,7 +642,7 @@ models:
 - provider: Amazon
   modelName: Nova Reel
   launchDate: Dec 3, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-09-30'
   inputModalities:
   - IMAGE
   - TEXT
@@ -909,7 +909,7 @@ models:
 - provider: Anthropic
   modelName: Claude 3 Haiku
   launchDate: Mar 13, 2024
-  modelLifecycle: Legacy (certain regions)
+  modelLifecycle: 'EOL: 2026-09-10 (certain regions)'
   contextWindow: 200K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Aug 2023
@@ -2009,7 +2009,7 @@ models:
 - provider: Anthropic
   modelName: Claude Sonnet 4
   launchDate: May 23, 2025
-  modelLifecycle: Legacy (certain regions)
+  modelLifecycle: 'EOL: 2026-10-14'
   contextWindow: 200K tokens
   maxOutputTokens: 64K
   reasoning: true
@@ -2444,7 +2444,7 @@ models:
 - provider: Cohere
   modelName: Command R
   launchDate: Aug 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-08-19'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Mar 2024
@@ -2478,7 +2478,7 @@ models:
 - provider: Cohere
   modelName: Command R+
   launchDate: Aug 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-08-19'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Mar 2024
@@ -3549,7 +3549,7 @@ models:
 - provider: Meta
   modelName: Llama 3.1 405B Instruct
   launchDate: Jul 23, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-07-07'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Dec 2023
@@ -3664,7 +3664,7 @@ models:
 - provider: Meta
   modelName: Llama 3.2 11B Instruct
   launchDate: Sep 25, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-07-07'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Dec 2023
@@ -3705,7 +3705,7 @@ models:
 - provider: Meta
   modelName: Llama 3.2 1B Instruct
   launchDate: Sep 25, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-07-07'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Dec 2023
@@ -3758,7 +3758,7 @@ models:
 - provider: Meta
   modelName: Llama 3.2 3B Instruct
   launchDate: Sep 25, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-07-07'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Dec 2023
@@ -3811,7 +3811,7 @@ models:
 - provider: Meta
   modelName: Llama 3.2 90B Instruct
   launchDate: Sep 25, 2024
-  modelLifecycle: Legacy
+  modelLifecycle: 'EOL: 2026-07-07'
   contextWindow: 128K tokens
   maxOutputTokens: 4K
   knowledgeCutoff: Dec 2023
