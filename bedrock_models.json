@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-18T07:41:18Z",
+  "generatedAt": "2026-10-19T08:22:54Z",
   "modelCount": 111,
   "models": [
     {
@@ -7884,7 +7884,7 @@
       "modelName": "GPT-5.4",
       "launchDate": "June 1, 2026",
       "modelLifecycle": "Active",
-      "contextWindow": "1,050,000 tokens",
+      "contextWindow": "1,050,000 tokens, shared between input and output",
       "maxOutputTokens": "128,000",
       "programmaticAccess": [
         {
@@ -7937,7 +7937,7 @@
       "modelName": "GPT-5.5",
       "launchDate": "June 1, 2026",
       "modelLifecycle": "Active",
-      "contextWindow": "1,050,000 tokens",
+      "contextWindow": "1,050,000 tokens, shared between input and output",
       "maxOutputTokens": "128,000",
       "programmaticAccess": [
         {
@@ -8462,7 +8462,7 @@
       "modelName": "Qwen3 Coder 480B A35B Instruct",
       "launchDate": "Jul 23, 2025",
       "modelLifecycle": "Legacy",
-      "contextWindow": "128K tokens",
+      "contextWindow": "256K tokens",
       "maxOutputTokens": "16K",
       "inputModalities": [
         "TEXT"
