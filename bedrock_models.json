@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-19T08:22:54Z",
+  "generatedAt": "2026-10-20T08:06:11Z",
   "modelCount": 111,
   "models": [
     {
@@ -9739,7 +9739,7 @@
       "provider": "TwelveLabs",
       "modelName": "Marengo Embed 3.0",
       "launchDate": "Oct 29, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy in ap-northeast-2; Active in other Regions",
       "inputModalities": [
         "IMAGE",
         "SPEECH",
@@ -9845,7 +9845,7 @@
       "provider": "TwelveLabs",
       "modelName": "Pegasus v1.2",
       "launchDate": "Feb 11, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "inputModalities": [
         "TEXT",
         "VIDEO"
@@ -10171,7 +10171,7 @@
       "provider": "Writer",
       "modelName": "Palmyra X4",
       "launchDate": "Sep 2024",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
@@ -10230,7 +10230,7 @@
       "provider": "Writer",
       "modelName": "Palmyra X5",
       "launchDate": "Jan 21, 2026",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K",
       "inputModalities": [
