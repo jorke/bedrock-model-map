@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-10-20T08:06:11Z",
+  "generatedAt": "2026-11-10T10:40:41Z",
   "modelCount": 111,
   "models": [
     {
@@ -2407,8 +2407,7 @@
             "us.anthropic.claude-opus-4-8",
             "eu.anthropic.claude-opus-4-8",
             "jp.anthropic.claude-opus-4-8",
-            "au.anthropic.claude-opus-4-8",
-            "us-gov.anthropic.claude-opus-4-8"
+            "au.anthropic.claude-opus-4-8"
           ],
           "globalInferenceIds": [
             "global.anthropic.claude-opus-4-8"
