@@ -1,6 +1,6 @@
 {
   "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
-  "generatedAt": "2026-11-13T10:25:58Z",
+  "generatedAt": "2026-11-24T13:10:46Z",
   "modelCount": 111,
   "models": [
     {
@@ -1238,7 +1238,7 @@
           "global": false
         },
         "ca-central-1": {
-          "inRegion": true,
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -1258,7 +1258,7 @@
           "global": false
         },
         "eu-central-2": {
-          "inRegion": true,
+          "inRegion": false,
           "geo": false,
           "global": false
         },
@@ -1279,31 +1279,31 @@
         },
         "ap-northeast-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-northeast-2": {
-          "inRegion": true,
-          "geo": true,
+          "inRegion": false,
+          "geo": false,
           "global": false
         },
         "ap-south-1": {
-          "inRegion": true,
-          "geo": true,
+          "inRegion": false,
+          "geo": false,
           "global": false
         },
         "ap-southeast-1": {
-          "inRegion": true,
-          "geo": true,
+          "inRegion": false,
+          "geo": false,
           "global": false
         },
         "ap-southeast-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "sa-east-1": {
-          "inRegion": true,
+          "inRegion": false,
           "geo": false,
           "global": false
         }
@@ -1779,17 +1779,17 @@
       "regions": {
         "us-east-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "us-east-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "us-west-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         }
       }
@@ -1798,7 +1798,7 @@
       "provider": "Anthropic",
       "modelName": "Claude Opus 4.5",
       "launchDate": "Nov 24, 2025",
-      "modelLifecycle": "Active",
+      "modelLifecycle": "Legacy",
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K",
       "reasoning": true,
@@ -1825,168 +1825,168 @@
       "regions": {
         "us-east-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-east-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-west-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-west-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ca-central-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ca-west-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "eu-central-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-central-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-north-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-south-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-south-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-3": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-east-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-northeast-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-northeast-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-northeast-3": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-south-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-3": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-4": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-5": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-6": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-7": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "il-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "me-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "me-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "af-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "sa-east-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "mx-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         }
       }
     },
@@ -2635,117 +2635,117 @@
       "regions": {
         "us-east-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-east-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-west-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "us-west-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-central-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "eu-north-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "eu-south-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "eu-south-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "eu-west-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-3": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-east-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-northeast-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-northeast-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-northeast-3": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-south-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-south-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-2": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-3": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-4": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-5": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ap-southeast-7": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "il-central-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         }
       }
@@ -2783,178 +2783,178 @@
       "regions": {
         "us-east-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-east-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-west-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "us-west-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ca-central-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ca-west-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ov-west-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "ov-east-1": {
           "inRegion": false,
-          "geo": true,
+          "geo": false,
           "global": false
         },
         "eu-central-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-central-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-north-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-south-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-south-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "eu-west-3": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-east-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-northeast-1": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-northeast-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-northeast-3": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-south-2": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-2": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-southeast-3": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-4": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-southeast-5": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "ap-southeast-6": {
           "inRegion": false,
-          "geo": true,
-          "global": true
+          "geo": false,
+          "global": false
         },
         "ap-southeast-7": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "il-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "me-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "me-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "af-south-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "sa-east-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         },
         "mx-central-1": {
           "inRegion": false,
           "geo": false,
-          "global": true
+          "global": false
         }
       }
     },
